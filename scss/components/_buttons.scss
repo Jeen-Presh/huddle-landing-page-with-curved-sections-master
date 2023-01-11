@@ -1,0 +1,27 @@
+@use '../utilities/' as *;
+
+.btn {
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    padding: 1rem 3rem;
+    white-space: nowrap;
+
+    &--outline{
+        border: 1px solid $bg-primary;
+        color: $bg-primary;
+        margin-top: 1rem;
+        padding: .3rem 2rem; 
+        transition: all 1s;
+
+        @media (min-width:36em){
+            margin-top: 0;
+        }
+
+        &:hover{
+            opacity: 0.5;
+        }
+    }
+}
+
