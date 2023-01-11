@@ -13,7 +13,7 @@
         color: $bg-primary;
         margin-top: 1rem;
         padding: .3rem 2rem; 
-        transition: all 1s;
+        transition: opacity 1s;
 
         @media (min-width:36em){
             margin-top: 0;
