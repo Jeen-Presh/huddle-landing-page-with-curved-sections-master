@@ -1,0 +1,21 @@
+@use '../abstracts/' as *;
+
+.hero{
+    &__heading{
+        color: $clr-neutral-darkcyan;
+        font-family: $ff-popins;
+        font-size: clamp( 1.5rem, calc(2vw + 1rem), 5rem );
+        font-weight:$fw-700;
+    }
+
+    &__description{
+        color: $clr-neutral-darkcyan;
+        margin: auto;
+        max-width: 56ch;
+
+    }
+
+    &__image{
+        margin: auto;
+    }
+}
