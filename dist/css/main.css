@@ -83,12 +83,29 @@ body {
 }
 .container--hero {
   padding: 0 3rem;
-  max-width: 65rem;
+  max-width: 68rem;
   overflow: hidden;
+}
+.container--stats {
+  max-width: 50rem;
+  margin: auto;
+}
+.container--section {
+  max-width: 80rem;
+  margin: auto;
+  padding: 0 2rem;
+}
+
+.bg-color {
+  background-color: #f5faff;
 }
 
 .pt-24 {
   padding-top: 6rem;
+}
+
+.pt-26 {
+  padding-top: 7rem;
 }
 
 .py-12 {
@@ -99,8 +116,29 @@ body {
   padding-bottom: 4rem;
 }
 
+.px-50 {
+  padding: 0 15rem;
+}
+
+.pt-30 {
+  padding-top: 12rem;
+}
+
+.pb-18 {
+  padding-bottom: 9rem;
+}
+
 .text-center {
   text-align: center;
+}
+
+.text-centerm {
+  text-align: center;
+}
+@media (min-width: 48em) {
+  .text-centerm {
+    text-align: left;
+  }
 }
 
 .mb-32 {
@@ -141,6 +179,63 @@ body {
   background-color: #ff8fd8;
 }
 
+.grid-col-2 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+}
+@media (min-width: 48em) {
+  .grid-col-2 {
+    grid-auto-flow: column;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 48em) {
+  .grid-reverse {
+    order: 2;
+  }
+}
+
+.cruved-edges {
+  background-image: url(../../dist/images/bg-section-top-mobile-1.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom -1rem right 0;
+}
+@media (min-width: 40em) {
+  .cruved-edges {
+    background-image: url(../../dist/images/bg-section-top-desktop-1.svg);
+  }
+}
+
+.section-heading {
+  color: #00252e;
+  font-weight: 700;
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 1rem;
+}
+
+.section-description {
+  color: #00252e;
+}
+@media (min-width: 48em) {
+  .section-description {
+    max-width: 55ch;
+  }
+}
+
+picture {
+  padding: 0 2rem;
+}
+@media (min-width: 48rem) {
+  picture {
+    padding: 0 0;
+  }
+}
+
 .nav {
   padding-top: 2rem;
   text-align: center;
@@ -161,7 +256,7 @@ body {
 .hero__heading {
   color: #00252e;
   font-family: "Poppins", sans-serif;
-  font-size: clamp(1.5rem, 2vw + 1rem, 5rem);
+  font-size: clamp(1.5rem, 2vw + 1rem, 3rem);
   font-weight: 700;
 }
 .hero__description {
@@ -171,6 +266,25 @@ body {
 }
 .hero__image {
   margin: auto;
+}
+
+.stats__number {
+  font-size: 4rem;
+  color: #00252e;
+}
+.stats__message {
+  text-align: center;
+  font-size: 1.2rem;
+  opacity: 0.5;
+}
+.stats__icon {
+  width: 35px;
+}
+
+@media (min-width: 48em) {
+  .grow-together .grid-col-2 {
+    grid-auto-columns: 1fr;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

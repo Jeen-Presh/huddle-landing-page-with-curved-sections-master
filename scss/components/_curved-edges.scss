@@ -1,0 +1,10 @@
+.cruved-edges{
+    background-image:url(../../dist/images/bg-section-top-mobile-1.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom -1rem right 0;
+
+    @media (min-width:40em) {
+        background-image:url(../../dist/images/bg-section-top-desktop-1.svg);
+    }
+}

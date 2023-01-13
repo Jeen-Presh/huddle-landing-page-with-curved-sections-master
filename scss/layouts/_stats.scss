@@ -1,0 +1,18 @@
+@use '../abstracts/' as *;
+
+.stats{
+    &__number{
+        font-size: 4rem;
+        color:$clr-neutral-darkcyan;
+    }
+    
+    &__message{
+        text-align: center;
+        font-size: 1.2rem;
+        opacity: 0.5;
+    }
+
+    &__icon{
+        width: 35px;
+    }
+}

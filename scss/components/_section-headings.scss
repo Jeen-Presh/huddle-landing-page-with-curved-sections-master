@@ -1,0 +1,23 @@
+@use '../abstracts/' as *;
+
+.section-heading{
+    color: $clr-neutral-darkcyan;
+    font-weight: $fw-700;
+    font-size: 2rem;
+    font-family: $ff-popins;
+    padding-bottom: 1rem;
+}
+
+.section-description{
+    color: $clr-neutral-darkcyan;
+    @media(min-width:48em){
+        max-width: 55ch;
+    }
+}
+
+picture {
+    padding: 0 2rem;
+    @media(min-width: 48rem){
+        padding: 0 0;
+    }
+}

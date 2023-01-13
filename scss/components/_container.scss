@@ -8,7 +8,18 @@
 
     &--hero{
         padding:0 3rem;
-        max-width: 65rem;
+        max-width: 68rem;
         overflow: hidden;
+    }
+
+    &--stats{
+        max-width: 50rem;
+        margin: auto;
+    }
+
+    &--section{
+        max-width: 80rem;
+        margin: auto;
+        padding: 0 2rem;
     }
 }
