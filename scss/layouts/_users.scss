@@ -1,0 +1,7 @@
+.users{
+    .grid-col-2{
+        @media (min-width:48em){
+            grid-auto-columns: 1fr;
+        }
+    }
+}

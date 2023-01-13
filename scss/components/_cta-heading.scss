@@ -1,0 +1,8 @@
+@use '../abstracts/' as *;
+
+.cta__heading{
+    color: $clr-neutral-darkcyan;
+    font-family: $ff-popins;
+    font-weight:$fw-700;
+    margin-bottom: 2rem;
+}

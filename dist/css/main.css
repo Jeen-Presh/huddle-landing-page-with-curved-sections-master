@@ -95,6 +95,9 @@ body {
   margin: auto;
   padding: 0 2rem;
 }
+.container--cta {
+  padding: 0 3.5rem;
+}
 
 .bg-color {
   background-color: #f5faff;
@@ -128,8 +131,8 @@ body {
   padding-bottom: 9rem;
 }
 
-.pt-32 {
-  padding-top: 20rem;
+.py-32 {
+  padding: 18rem 0;
 }
 
 .text-center {
@@ -202,27 +205,39 @@ body {
   }
 }
 
-.cruved-edges-1 {
+.curved-edges-1 {
   background-image: url(../../dist/images/bg-section-top-mobile-1.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom -1rem right 0;
 }
 @media (min-width: 40em) {
-  .cruved-edges-1 {
+  .curved-edges-1 {
     background-image: url(../../dist/images/bg-section-top-desktop-1.svg);
   }
 }
 
-.cruved-edges-2 {
+.curved-edges-2 {
+  background-image: url(../../dist/images/bg-section-bottom-mobile-1.svg), url(../../dist/images/bg-section-top-mobile-2.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain;
+  background-position: top -1rem left 0, bottom -1rem right 0;
+}
+@media (min-width: 40em) {
+  .curved-edges-2 {
+    background-image: url(../../dist/images/bg-section-bottom-desktop-2.svg), url(../../dist/images/bg-section-top-desktop-2.svg);
+  }
+}
+
+.curved-edges-3 {
   background-image: url(../../dist/images/bg-section-bottom-mobile-2.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: top -1rem left 0;
 }
 @media (min-width: 40em) {
-  .cruved-edges-2 {
-    background-image: url(../../dist/images/bg-section-bottom-desktop-2.svg);
+  .curved-edges-3 {
+    background-image: url(../../dist/images/bg-section-bottom-desktop-1.svg);
   }
 }
 
@@ -250,6 +265,13 @@ picture {
   picture {
     padding: 0 0;
   }
+}
+
+.cta__heading {
+  color: #00252e;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  margin-bottom: 2rem;
 }
 
 .nav {
@@ -299,6 +321,18 @@ picture {
 
 @media (min-width: 48em) {
   .grow-together .grid-col-2 {
+    grid-auto-columns: 1fr;
+  }
+}
+
+@media (min-width: 48em) {
+  .flow-conversations .grid-col-2 {
+    grid-auto-columns: 1fr;
+  }
+}
+
+@media (min-width: 48em) {
+  .users .grid-col-2 {
     grid-auto-columns: 1fr;
   }
 }
