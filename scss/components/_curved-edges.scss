@@ -21,12 +21,12 @@
 }
 
 .curved-edges-3{
-    background-image:url(../../dist/images/bg-section-bottom-mobile-2.svg);
+    background-image:url(../../dist/images/bg-section-bottom-mobile-2.svg),url(../../dist/images/bg-footer-top-mobile.svg);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: top -1rem left 0;
+    background-position: top -1rem left 0, bottom -0.3rem right 0;
 
     @media (min-width:40em) {
-        background-image:url(../../dist/images/bg-section-bottom-desktop-1.svg);
+        background-image:url(../../dist/images/bg-section-bottom-desktop-1.svg), url(../../dist/images/bg-footer-top-desktop.svg);
     }
 }

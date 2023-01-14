@@ -1,0 +1,7 @@
+.ft-grid-col-2{
+    @media(min-width:48em){
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: 1fr;
+    }
+}

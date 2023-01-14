@@ -11,6 +11,10 @@
     font-weight: 700;
     font-size:clamp(0.8rem, 1vw + .4rem, 1rem);
 
+    @media(max-width:20.125em){
+        padding: 1rem 2rem;
+    }
+
     &--outline{
         border: 1px solid $bg-primary;
         color: $bg-primary;
@@ -31,6 +35,20 @@
         background-color: $clr-primary-pink;
         color: #fff;
         transition: background-color 1s;
+        &:hover{
+            background-color:$clr-primary-lightPink;
+        }
+    }
+    
+    &--block{
+        border-radius: 5px;
+        background-color: $clr-primary-pink;
+        color: #fff;
+        margin-top: 1rem;
+        justify-self: right;
+        padding: 0.6rem 3rem;
+        transition: background-color 1s;
+
         &:hover{
             background-color:$clr-primary-lightPink;
         }
