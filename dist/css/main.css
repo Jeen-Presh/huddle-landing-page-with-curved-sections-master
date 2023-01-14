@@ -27,8 +27,10 @@ html, body {
   5. Improve text rendering
 */
 body {
-  line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+  line-height: 1.5;
 }
 
 /*
@@ -69,10 +71,7 @@ ul {
   padding: 0;
 }
 
-body {
-  font-family: "Open Sans", sans-serif;
-  line-height: 1.5;
-}
+
 
 .container {
   margin: auto;
