@@ -20,7 +20,7 @@
         color: $bg-primary;
         margin-top: 1rem;
         padding: .3rem 2rem; 
-        transition: opacity 1s;
+        transition: all 1s;
 
         @media (min-width:36em){
             margin-top: 0;
@@ -34,7 +34,7 @@
     &--primary{
         background-color: $clr-primary-pink;
         color: #fff;
-        transition: background-color 1s;
+        transition: all 1s;
         &:hover{
             background-color:$clr-primary-lightPink;
         }
@@ -47,7 +47,7 @@
         margin-top: 1rem;
         justify-self: right;
         padding: 0.6rem 3rem;
-        transition: background-color 1s;
+        transition: all 1s;
 
         &:hover{
             background-color:$clr-primary-lightPink;
