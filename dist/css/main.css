@@ -184,7 +184,6 @@ body {
   color: #ff52bf;
   margin-top: 1rem;
   padding: 0.3rem 2rem;
-  transition: all 1s;
 }
 @media (min-width: 36em) {
   .btn--outline {
@@ -197,7 +196,6 @@ body {
 .btn--primary {
   background-color: #ff52bf;
   color: #fff;
-  transition: all 1s;
 }
 .btn--primary:hover {
   background-color: #ff8fd8;
@@ -209,7 +207,6 @@ body {
   margin-top: 1rem;
   justify-self: right;
   padding: 0.6rem 3rem;
-  transition: all 1s;
 }
 .btn--block:hover {
   background-color: #ff8fd8;
